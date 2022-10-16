@@ -14,7 +14,7 @@ import static org.springframework.data.domain.ExampleMatcher.GenericPropertyMatc
 
 @SpringBootTest
 class MemberRepositoryTest {
-    // 스프링 컨텍스트를 로딩하여 테스트에 활용하겠다.  // 
+    // 스프링 컨텍스트를 로딩하여 테스트에 활용하겠다.  // testsetsetset
     @Autowired
     private MemberRepository memberRepository;
 
