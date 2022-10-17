@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.358s</div>
+<div class="counter">0.480s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">crud()</td>
-<td class="success">0.358s</td>
+<td class="success">pagingAndSortingTest()</td>
+<td class="success">0.480s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,22 +87,22 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>22:09:12.346 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-22:09:12.361 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-22:09:12.413 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-22:09:12.479 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest], using SpringBootContextLoader
-22:09:12.486 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: class path resource [com/practice/jpa/bookmanager/repository/MemberRepositoryTest-context.xml] does not exist
-22:09:12.486 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: class path resource [com/practice/jpa/bookmanager/repository/MemberRepositoryTestContext.groovy] does not exist
-22:09:12.487 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-22:09:12.487 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-22:09:12.566 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]
-22:09:12.659 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/taeil/IdeaProjects/jpaPractice/build/classes/java/main/com/practice/jpa/bookmanager/JpaPracticeApplication.class]
-22:09:12.661 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.practice.jpa.bookmanager.JpaPracticeApplication for test class com.practice.jpa.bookmanager.repository.MemberRepositoryTest
-22:09:12.765 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: using defaults.
-22:09:12.766 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-22:09:12.788 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c4f9535, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5bd1ceca, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@30c31dd7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@499b2a5c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@596df867, org.springframework.test.context.support.DirtiesContextTestExecutionListener@c1fca1e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@241a53ef, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@344344fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@2db2cd5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@70e659aa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@615f972, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@285f09de, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73393584, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@31500940, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1827a871]
-22:09:12.792 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@473b3b7a testClass = MemberRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1734f68 testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.practice.jpa.bookmanager.JpaPracticeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7c098bb3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@b6b1987, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7c541c15, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4212a0c8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@62452cc9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@18f8cd79], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-22:09:12.887 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+<pre>20:09:42.659 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:09:42.708 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:09:42.764 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:09:42.782 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest], using SpringBootContextLoader
+20:09:42.787 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: class path resource [com/practice/jpa/bookmanager/repository/MemberRepositoryTest-context.xml] does not exist
+20:09:42.787 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: class path resource [com/practice/jpa/bookmanager/repository/MemberRepositoryTestContext.groovy] does not exist
+20:09:42.788 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:09:42.789 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:09:42.866 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]
+20:09:42.974 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/taeil/jpaPractice/jpa/jpaPractice/build/classes/java/main/com/practice/jpa/bookmanager/JpaPracticeApplication.class]
+20:09:42.977 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.practice.jpa.bookmanager.JpaPracticeApplication for test class com.practice.jpa.bookmanager.repository.MemberRepositoryTest
+20:09:43.081 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.practice.jpa.bookmanager.repository.MemberRepositoryTest]: using defaults.
+20:09:43.083 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:09:43.105 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@750fe12e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f8908f6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3e587920, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2ef8a8c3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@24f43aa3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63fd4873, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e11bc55, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7544a1e4, org.springframework.test.context.event.EventPublishingTestExecutionListener@70e0accd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7957dc72, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ab72419, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3aacf32a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fdfa676, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@82c57b3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5be82d43]
+20:09:43.110 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@31c269fd testClass = MemberRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@372b0d86 testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.practice.jpa.bookmanager.JpaPracticeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4351c8c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@39ad977d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@18025ced, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5d2a4eed, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@665df3c6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6cc4cdb9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+20:09:43.219 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -112,16 +112,19 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.3)
 
-2022-10-16 22:09:13.406  INFO 60815 --- [    Test worker] c.p.j.b.repository.MemberRepositoryTest  : Starting MemberRepositoryTest using Java 11.0.11 on MacBook-Pro.local with PID 60815 (started by taeil in /Users/taeil/IdeaProjects/jpaPractice)
-2022-10-16 22:09:13.413  INFO 60815 --- [    Test worker] c.p.j.b.repository.MemberRepositoryTest  : No active profile set, falling back to default profiles: default
-2022-10-16 22:09:14.624  INFO 60815 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-10-16 22:09:14.707  INFO 60815 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
-2022-10-16 22:09:15.703  INFO 60815 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-10-16 22:09:15.884  INFO 60815 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-10-16 22:09:16.031  INFO 60815 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-10-16 22:09:16.087  INFO 60815 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
-2022-10-16 22:09:16.237  INFO 60815 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-10-16 22:09:16.364  INFO 60815 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-17 20:09:43.760  INFO 72933 --- [    Test worker] c.p.j.b.repository.MemberRepositoryTest  : Starting MemberRepositoryTest using Java 11.0.11 on MacBook-Pro.local with PID 72933 (started by taeil in /Users/taeil/jpaPractice/jpa/jpaPractice)
+2022-10-17 20:09:43.770  INFO 72933 --- [    Test worker] c.p.j.b.repository.MemberRepositoryTest  : No active profile set, falling back to default profiles: default
+2022-10-17 20:09:45.109  INFO 72933 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-17 20:09:45.186  INFO 72933 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2022-10-17 20:09:46.233  INFO 72933 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-17 20:09:46.433  INFO 72933 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-17 20:09:46.575  INFO 72933 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 20:09:46.641  INFO 72933 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-10-17 20:09:46.818  INFO 72933 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 20:09:46.958  INFO 72933 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: 
+    
+    drop table if exists address CASCADE 
 Hibernate: 
     
     drop table if exists member CASCADE 
@@ -129,6 +132,12 @@ Hibernate:
     
     drop sequence if exists hibernate_sequence
 Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: 
+    
+    create table address (
+       id bigint not null,
+        primary key (id)
+    )
 Hibernate: 
     
     create table member (
@@ -139,25 +148,151 @@ Hibernate:
         update_at timestamp,
         primary key (id)
     )
-2022-10-16 22:09:17.004  INFO 60815 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-10-16 22:09:17.014  INFO 60815 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-10-16 22:09:17.524  WARN 60815 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-10-16 22:09:17.993  INFO 60815 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2022-10-16 22:09:18.082  INFO 60815 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ca81d9be-6dd4-45c8-b864-35760fc93a7b'
-2022-10-16 22:09:18.949  INFO 60815 --- [    Test worker] c.p.j.b.repository.MemberRepositoryTest  : Started MemberRepositoryTest in 6.043 seconds (JVM running for 7.882)
+2022-10-17 20:09:47.647  INFO 72933 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 20:09:47.656  INFO 72933 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 20:09:48.262  WARN 72933 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-17 20:09:48.831  INFO 72933 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-17 20:09:48.929  INFO 72933 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1266a242-10ba-42dc-be3b-d1efe8fb8b5c'
+2022-10-17 20:09:50.382  INFO 72933 --- [    Test worker] c.p.j.b.repository.MemberRepositoryTest  : Started MemberRepositoryTest in 7.143 seconds (JVM running for 9.114)
 Hibernate: 
     select
-        member0_.id as id1_0_,
-        member0_.created_at as created_2_0_,
-        member0_.email as email3_0_,
-        member0_.name as name4_0_,
-        member0_.update_at as update_a5_0_ 
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
     from
         member member0_ 
     where
-        member0_.email like ? escape ?
-Member(id=1, name=taeil, email=taeil@naver.com, createdAt=2022-10-16T22:09:17.044506, updateAt=2022-10-16T22:09:17.044506)
-Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-16T22:09:17.058592, updateAt=2022-10-16T22:09:17.058592)
+        member0_.name=? limit ?
+findTop1ByName : Member(id=1, name=taeil, email=taeil@naver.com, createdAt=2022-10-17T20:09:47.682456, updateAt=2022-10-17T20:09:47.682456)
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=?
+findLast1ByName : [Member(id=1, name=taeil, email=taeil@naver.com, createdAt=2022-10-17T20:09:47.682456, updateAt=2022-10-17T20:09:47.682456), Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id desc limit ?
+findTop1ByNameOrderByIdDesc : [Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id desc limit ?
+findTopByNameOrderByIdDesc : [Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id desc,
+        member0_.email asc limit ?
+findFirstByNameOrderByIdDescEmailAsc : [Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id desc,
+        member0_.email asc limit ?
+findFirstByName : [Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id desc,
+        member0_.email asc limit ?
+findFirstByNameWithSortParams : [Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id asc limit ? offset ?
+Hibernate: 
+    select
+        count(member0_.id) as col_0_0_ 
+    from
+        member member0_ 
+    where
+        member0_.name=?
+findByNameWithPaging : [Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-17T20:09:47.699542, updateAt=2022-10-17T20:09:47.699542)]
+Hibernate: 
+    select
+        member0_.id as id1_1_,
+        member0_.created_at as created_2_1_,
+        member0_.email as email3_1_,
+        member0_.name as name4_1_,
+        member0_.update_at as update_a5_1_ 
+    from
+        member member0_ 
+    where
+        member0_.name=? 
+    order by
+        member0_.id asc limit ? offset ?
+Hibernate: 
+    select
+        count(member0_.id) as col_0_0_ 
+    from
+        member member0_ 
+    where
+        member0_.name=?
+findByNameWithPagingGetTotalElements : 2
 </pre>
 </span>
 </div>
@@ -169,7 +304,7 @@ Member(id=5, name=taeil, email=taeil@fastcampus.com, createdAt=2022-10-16T22:09:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5</a> at Oct 16, 2022, 10:09:19 PM</p>
+<a href="http://www.gradle.org">Gradle 7.5</a> at Oct 17, 2022, 8:09:51 PM</p>
 </div>
 </div>
 </body>
